@@ -1,0 +1,25 @@
+Microsoft Windows [Version 10.0.17763.615]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\45937966>cd C:/MongoDB/Server/4.0.6/bin
+
+C:\MongoDB\Server\4.0.6\bin>mongoimport --db Amazonmobile --collection review --file "C:\Users\45937966\Downloads\Amazon.json"
+2019-08-14T14:11:12.299+1000    Failed: open C:\Users\45937966\Downloads\Amazon.json: The system cannot find the file specified.
+2019-08-14T14:11:12.300+1000    imported 0 documents
+
+C:\MongoDB\Server\4.0.6\bin>mongoimport --db Amazonmobile --collection review --file "C:/Users/45937966/Downloads/Amazon.json"
+2019-08-14T14:11:31.104+1000    Failed: open C:\Users\45937966\Downloads\Amazon.json: The system cannot find the file specified.
+2019-08-14T14:11:31.105+1000    imported 0 documents
+
+C:\MongoDB\Server\4.0.6\bin>mongoimport --db Amazonmobile --collection review --file "C:/Users/45937966/Downloads/Amazon.json"
+2019-08-14T14:15:13.773+1000    Failed: open C:\Users\45937966\Downloads\Amazon.json: The system cannot find the file specified.
+2019-08-14T14:15:13.774+1000    imported 0 documents
+
+C:\MongoDB\Server\4.0.6\bin>mongoimport --db Amazonmobile --collection review --file "C:/Users/45937966/Downloads/Amazon.json"
+2019-08-14T14:16:46.464+1000    connected to: localhost
+2019-08-14T14:16:48.446+1000    [###########.............] Amazonmobile.review  63.5MB/135MB (47.0%)
+2019-08-14T14:16:50.569+1000    [########################] Amazonmobile.review  135MB/135MB (100.0%)
+2019-08-14T14:16:50.569+1000    imported 194439 documents
+
+C:\MongoDB\Server\4.0.6\bin>
+
